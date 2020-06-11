@@ -1,0 +1,16 @@
+{
+  "local_oca_repo_path": "/root/git",
+  "local_doc_path": "/var/www/documentazione",
+  "oca_repositories": {
+    "l10n-italy": {
+      "versions": ["12.0"],
+      "title": "Moduli Odoo Italia",
+      "description": "Bellissimi"
+    },
+    "account-invoicing": {
+      "versions": ["12.0"],
+      "title": "Fatturazione",
+      "description": "Bellissimi"
+    }
+  }
+}
