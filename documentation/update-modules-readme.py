@@ -66,6 +66,7 @@ def push_if_needed(path):
     if diff:
         check_output(['git', 'commit', '-m', 'Automatic push of OCA README'])
         check_output(['git', 'push'])
+    check_output(['make', 'html', 'SPHINXBUILD=/var/www/documentazione/venv/bin/sphinx-build'])
 
 
 def build_moduli_rst(local_doc_path_oca_repo, repo_title, repo_descr):
