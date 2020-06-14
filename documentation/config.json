@@ -1,16 +1,76 @@
 {
   "local_oca_repo_path": "/root/git",
   "local_doc_path": "/var/www/documentazione",
-  "oca_repositories": {
-    "l10n-italy": {
-      "versions": ["12.0"],
-      "title": "Moduli Odoo Italia",
-      "description": "Bellissimi"
+  "oca_sections": {
+    "oca-accounting": {
+      "title": "Contabilità",
+      "oca_repositories": {
+        "l10n-italy": {
+          "versions": ["12.0"],
+          "title": "Moduli Odoo Italia",
+          "description": ""
+        },
+        "account-invoicing": {
+          "versions": ["12.0"],
+          "title": "Fatturazione",
+          "description": ""
+        }
+      }
     },
-    "account-invoicing": {
-      "versions": ["12.0"],
-      "title": "Fatturazione",
-      "description": "Bellissimi"
+    "oca-sales": {
+      "title": "Vendite",
+      "oca_repositories": {
+        "commission": {
+          "versions": ["12.0"],
+          "title": "Moduli Odoo Italia",
+          "description": ""
+        },
+        "sale-workflow": {
+          "versions": ["12.0"],
+          "title": "Moduli Odoo Italia",
+          "description": ""
+        },
+        "sale-reporting": {
+          "versions": ["12.0"],
+          "title": "Moduli Odoo Italia",
+          "description": ""
+        }
+      }
+    },
+    "oca-purchases": {
+      "title": "Acquisti",
+      "oca_repositories": {
+        "purchase-workflow": {
+          "versions": ["12.0"],
+          "title": "Processo di acquisto",
+          "description": ""
+        }
+      }
+    },
+    "oca-inventory": {
+      "title": "Magazzino",
+      "oca_repositories": {
+        "wms": {
+          "versions": ["12.0"],
+          "title": "Moduli Odoo Italia",
+          "description": ""
+        }
+      }
+    },
+    "oca-odoo-app-extension": {
+      "title": "Estensioni OCA delle applicazioni Odoo",
+      "oca_repositories": {
+        "crm": {
+          "versions": ["12.0"],
+          "title": "CRM",
+          "description": ""
+        },
+        "project": {
+          "versions": ["12.0"],
+          "title": "Progetto",
+          "description": ""
+        }
+      }
     }
   }
 }
