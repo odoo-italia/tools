@@ -6,42 +6,42 @@
       "title": "Contabilità",
       "oca_repositories": {
         "l10n-italy": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Moduli Odoo Italia",
           "description": ""
         },
         "account-fiscal-rule": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Regole fiscali",
           "description": ""
         },
         "account-invoice-reporting": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Rendicontazione fatturazione",
           "description": ""
         },
         "account-invoicing": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Fatturazione",
           "description": ""
         },
         "account-payment": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Pagamenti",
           "description": ""
         },
         "bank-payment": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Pagamenti bancari",
           "description": ""
         },
         "contract": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Contratti",
           "description": ""
         },
         "currency": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Valuta",
           "description": ""
         }
@@ -51,17 +51,17 @@
       "title": "Vendite",
       "oca_repositories": {
         "commission": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Provvigioni",
           "description": ""
         },
         "sale-workflow": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Processo di vendita",
           "description": ""
         },
         "sale-reporting": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Rendicontazione vendite",
           "description": ""
         }
@@ -71,12 +71,12 @@
       "title": "Acquisti",
       "oca_repositories": {
         "purchase-workflow": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Processo di acquisto",
           "description": ""
         },
         "purchase-reporting": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Rendicontazione acquisti",
           "description": ""
 	}
@@ -86,7 +86,7 @@
       "title": "Magazzino",
       "oca_repositories": {
         "wms": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Sistema di gestione del magazzino (WMS)",
           "description": ""
         }
@@ -96,12 +96,12 @@
       "title": "Produzione",
       "oca_repositories": {
         "manufacture": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Produzione",
           "description": ""
         },
         "manufacture-reporting": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Rendicontazione produzione",
           "description": ""
         }
@@ -111,12 +111,12 @@
       "title": "Progetti",
       "oca_repositories": {
         "project": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Progetto",
           "description": ""
         },
         "project-reporting": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Rendicontazione progetti",
           "description": ""
         }
@@ -126,67 +126,67 @@
       "title": "Estensioni OCA altre applicazioni Odoo",
       "oca_repositories": {
         "crm": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "CRM",
           "description": ""
         },
         "website": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Sito web",
           "description": ""
         },
         "e-commerce": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "E-commerce",
           "description": ""
         },
         "social": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Comunicazioni",
           "description": ""
         },
         "pos": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Punto vendita",
           "description": ""
         },
         "hr": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Risorse umane",
           "description": ""
         },
         "timesheet": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Fogli ore",
           "description": ""
         },
         "event": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Eventi",
           "description": ""
         },
         "survey": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Sondaggi",
           "description": ""
         },
         "field-service": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Servizi sul campo",
           "description": ""
         },
         "helpdesk": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Assistenza clienti",
           "description": ""
         },
         "knowledge": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Competenze",
           "description": ""
         },
         "iot": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Internet delle cose (IoT)",
           "description": ""
         }
@@ -196,27 +196,27 @@
       "title": "Estensioni componenti base Odoo",
       "oca_repositories": {
         "web": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Estensioni client web",
           "description": ""
         },
         "partner-contact": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Contatti del partner",
           "description": ""
         },
         "product-attribute": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Attributi prodotto",
           "description": ""
         },
         "product-variant": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Varianti prodotto",
           "description": ""
         },
         "geospatial": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Supporto per GIS",
           "description": ""
         }
@@ -226,32 +226,32 @@
       "title": "Funzionalità aziendali generali",
       "oca_repositories": {
         "brand": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Gestione del marchio",
           "description": ""
         },
         "business-requirement": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Requisiti aziendali",
           "description": ""
         },
         "data-protection": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Protezione dei dati",
           "description": ""
         },
         "management-system": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Sistemi di gestione",
           "description": ""
         },
         "multi-company": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Multi azienda",
           "description": ""
         },
         "operating-unit": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Unità operative",
           "description": ""
         }
@@ -261,52 +261,52 @@
       "title": "Utilità di sistema",
       "oca_repositories": {
         "queue": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "",
           "description": ""
         },
         "report-print-send": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "",
           "description": ""
         },
         "reporting-engine": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "",
           "description": ""
         },
         "rest-framework": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "",
           "description": ""
         },
         "server-auth": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "",
           "description": ""
         },
         "server-brand": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "",
           "description": ""
         },
         "server-env": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "",
           "description": ""
         },
         "server-tools": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "",
           "description": ""
         },
         "server-ux": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "",
           "description": ""
         },
         "storage": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "",
           "description": ""
         }
@@ -316,37 +316,37 @@
       "title": "Connettori a servizi e software esterni",
       "oca_repositories": {
         "connector": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Connettori",
           "description": ""
         },
         "connector-cmis": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Connettori servizi CMIS",
           "description": ""
         },
         "connector-ecommerce": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Connettori e-commerce",
           "description": ""
         },
         "connector-jira": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Connettori Jira",
           "description": ""
         },
         "connector-telephony": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Connettori per telefonia",
           "description": ""
         },
         "edi": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Connettori EDI",
           "description": ""
         },
         "interface-github": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Connettori per GitHub",
           "description": ""
         }
@@ -356,17 +356,17 @@
       "title": "Verticalizzazioni per Odoo",
       "oca_repositories": {
         "vertical-association": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Verticalizzazione per associazioni",
           "description": ""
         },
         "vertical-isp": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Verticalizzazione per ISP",
           "description": ""
         },
         "vertical-hotel": {
-          "versions": ["12.0"],
+          "versions": ["12.0", "14.0"],
           "title": "Verticalizzazione per alberghi",
           "description": ""
         }
