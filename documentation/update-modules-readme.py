@@ -2,19 +2,9 @@ import os
 import json
 from subprocess import check_output
 
-MODULI_FILE = (
-    ".. FILE AUTOMATICALLY GENERATED. DO NOT EDIT\n"
-    "======\n"
-    "Moduli\n"
-    "======\n"
-    "\n"
-    ".. toctree::\n"
-    "   :titlesonly:\n"
-    "\n"
-)
-
 REPO_FILE = (
     ".. FILE AUTOMATICALLY GENERATED. DO NOT EDIT\n"
+    "\n"
     ":banner: banners/%s.jpg\n"
     "\n"
     "%s\n"
@@ -23,10 +13,15 @@ REPO_FILE = (
     "\n"
     "%s\n"
     "\n"
+    "------\n"
+    "Moduli\n"
+    "------\n"
+    "\n"
+    "|\n"
+    "\n"
     ".. toctree::\n"
     "   :titlesonly:\n"
     "\n"
-    "   %s/moduli\n"
 )
 
 SECTION_FILE = (
@@ -70,16 +65,13 @@ def push_if_needed(path):
     check_output(['make', 'html', 'SPHINXBUILD=/var/www/documentazione/venv/bin/sphinx-build'])
 
 
-def build_moduli_rst(local_doc_path_oca_repo, repo_title, repo_descr):
+def build_modules_rst(local_doc_path_oca_repo, repo_title, repo_descr):
     repo_oca_dir, repo_name = os.path.split(local_doc_path_oca_repo)
     title_separator = "=" * len(repo_title)
-    moduli_file_content = MODULI_FILE
-    repo_file_content = REPO_FILE % (repo_name, title_separator, repo_title, title_separator, repo_descr, repo_name)
+    repo_file_content = REPO_FILE % (repo_name, title_separator, repo_title, title_separator, repo_descr)
     repo_rst_file = "%s/%s.rst" % (repo_oca_dir, repo_name)
-    for module_rst in os.listdir("%s/moduli" % local_doc_path_oca_repo):
-        moduli_file_content += "   moduli/%s\n" % module_rst.replace(".rst", "")
-    with open("%s/moduli.rst" % local_doc_path_oca_repo, "w") as output:
-        output.write(moduli_file_content)
+    for module_rst in os.listdir(local_doc_path_oca_repo):
+        repo_file_content += "   %s/%s\n" % (repo_name, module_rst.replace(".rst", ""))
     with open(repo_rst_file, "w") as output:
         output.write(repo_file_content)
 
@@ -120,7 +112,6 @@ for oca_section in data['oca_sections']:
             local_doc_path_oca_repo = "%s/%s" % (local_doc_path_oca_section, oca_repo)
             if not os.path.isdir(local_doc_path_oca_repo):
                 check_output(["mkdir", local_doc_path_oca_repo])
-                check_output(["mkdir", "%s/moduli" % local_doc_path_oca_repo])
             for module_name in os.listdir(oca_repo_local_path):
                 module_path = "%s/%s" % (oca_repo_local_path, module_name)
                 if os.path.isdir(module_path):
@@ -128,8 +119,8 @@ for oca_section in data['oca_sections']:
                     if os.path.isfile(readme_path):
                         check_output([
                             "cp", readme_path,
-                            "%s/moduli/%s.rst" % (local_doc_path_oca_repo, module_name)])
-            build_moduli_rst(local_doc_path_oca_repo, repo_title, repo_descr)
+                            "%s/%s.rst" % (local_doc_path_oca_repo, module_name)])
+            build_modules_rst(local_doc_path_oca_repo, repo_title, repo_descr)
             build_repo_oca_rst(local_doc_path_oca_section, section_title)
 
 for version in versions:
