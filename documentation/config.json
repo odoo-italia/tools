@@ -7,7 +7,7 @@
       "oca_repositories": {
         "l10n-italy": {
           "versions": ["12.0", "14.0"],
-          "title": "Moduli Odoo Italia",
+          "title": "Contabilità italiana",
           "description": ""
         },
         "account-fiscal-rule": {
@@ -123,7 +123,7 @@
       }
     },
     "oca-odoo-app-extension": {
-      "title": "Estensioni OCA altre applicazioni Odoo",
+      "title": "Estensioni per altre applicazioni",
       "oca_repositories": {
         "crm": {
           "versions": ["12.0", "14.0"],
@@ -193,7 +193,7 @@
       }
     },
     "oca-extra": {
-      "title": "Estensioni componenti base Odoo",
+      "title": "Estensioni componenti base",
       "oca_repositories": {
         "web": {
           "versions": ["12.0", "14.0"],
