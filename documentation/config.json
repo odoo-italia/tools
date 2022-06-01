@@ -8,7 +8,7 @@
         "l10n-italy": {
           "versions": ["12.0", "14.0"],
           "title": "Contabilità italiana",
-          "description": ""
+          "description": "Componenti aggiuntivi che riguardano la localizzazione italiana di Odoo"
         },
         "account-fiscal-rule": {
           "versions": ["12.0", "14.0"],
@@ -23,17 +23,17 @@
         "account-invoicing": {
           "versions": ["12.0", "14.0"],
           "title": "Fatturazione",
-          "description": ""
+	  "description": "Progetto che si propone di gestire moduli relativi alla fatturazione"
         },
         "account-payment": {
           "versions": ["12.0", "14.0"],
           "title": "Pagamenti",
-          "description": ""
+          "description": "Progetto che include moduli per gestire attività relative ai pagamenti"
         },
         "bank-payment": {
           "versions": ["12.0", "14.0"],
           "title": "Pagamenti bancari",
-          "description": ""
+          "description": "Progetto che si focalizza sull'interfaccia dei pagamenti"
         },
         "contract": {
           "versions": ["12.0", "14.0"],
@@ -43,7 +43,7 @@
         "currency": {
           "versions": ["12.0", "14.0"],
           "title": "Valuta",
-          "description": ""
+          "description": "Componenti aggiuntivi relativi alla valuta (criptovalute, tassi di cambio, integrazioni con applicazioni di terze parti...)"
         }
       }
     },
@@ -78,7 +78,7 @@
         "purchase-reporting": {
           "versions": ["12.0", "14.0"],
           "title": "Rendicontazione acquisti",
-          "description": ""
+          "description": "Progetto che si propone di gestire la rendicontazione degli acquisti. Sono presenti moduli che implementano resoconti di vario tipo relativi in generale agli acquisti"
 	}
       }
     },
@@ -88,7 +88,7 @@
         "wms": {
           "versions": ["12.0", "14.0"],
           "title": "Sistema di gestione del magazzino (WMS)",
-          "description": ""
+          "description": "Moduli WMS per Odoo"
         }
       }
     },
@@ -98,7 +98,7 @@
         "manufacture": {
           "versions": ["12.0", "14.0"],
           "title": "Produzione",
-          "description": ""
+          "description": "Moduli Odoo relativi alla produzione"
         },
         "manufacture-reporting": {
           "versions": ["12.0", "14.0"],
@@ -143,17 +143,17 @@
         "social": {
           "versions": ["12.0", "14.0"],
           "title": "Comunicazioni",
-          "description": ""
+          "description": "Componenti aggiuntivi che riguardano le funzionalità ERP social e di messaggistica Odoo in generale"
         },
         "pos": {
           "versions": ["12.0", "14.0"],
           "title": "Punto vendita",
-          "description": ""
+          "description": "Progetto che si propone di gestire moduli Odoo relativi al punto vendita"
         },
         "hr": {
           "versions": ["12.0", "14.0"],
           "title": "Risorse umane",
-          "description": ""
+          "description": "Insieme di moduli generali relativi alla gestione delle risorse umane"
         },
         "timesheet": {
           "versions": ["12.0", "14.0"],
@@ -172,7 +172,7 @@
         },
         "field-service": {
           "versions": ["12.0", "14.0"],
-          "title": "Servizi sul campo",
+          "title": "Assistenza sul campo",
           "description": ""
         },
         "helpdesk": {
@@ -188,7 +188,7 @@
         "iot": {
           "versions": ["12.0", "14.0"],
           "title": "Internet delle cose (IoT)",
-          "description": ""
+          "description": "Moduli per l'internet delle cose (IoT)"
         }
       }
     },
@@ -238,17 +238,17 @@
         "data-protection": {
           "versions": ["12.0", "14.0"],
           "title": "Protezione dei dati",
-          "description": ""
+          "description": "Moduli Odoo per la protezione dei dati (come GDPR)"
         },
         "management-system": {
           "versions": ["12.0", "14.0"],
           "title": "Sistemi di gestione",
-          "description": ""
+          "description": "Moduli Odoo per supportare i sistemi di gestione"
         },
         "multi-company": {
           "versions": ["12.0", "14.0"],
           "title": "Multi azienda",
-          "description": ""
+          "description": "Componenti aggiuntivi per la gestione di istanze multi azienda"
         },
         "operating-unit": {
           "versions": ["12.0", "14.0"],
@@ -262,8 +262,8 @@
       "oca_repositories": {
         "queue": {
           "versions": ["12.0", "14.0"],
-          "title": "",
-          "description": ""
+          "title": "Coda",
+          "description": "Gestione avanzata di job asincroni per Odoo"
         },
         "report-print-send": {
           "versions": ["12.0", "14.0"],
@@ -277,13 +277,13 @@
         },
         "rest-framework": {
           "versions": ["12.0", "14.0"],
-          "title": "",
-          "description": ""
+          "title": "Framework REST",
+          "description": "Repository che contiene componenti aggiuntivi sviluppati per facilitare la messa a punto di servizi REST all'interno di Odoo"
         },
         "server-auth": {
           "versions": ["12.0", "14.0"],
-          "title": "",
-          "description": ""
+          "title": "Autenticazione server",
+          "description": "Moduli di autenticazione lato server per Odoo"
         },
         "server-brand": {
           "versions": ["12.0", "14.0"],
@@ -292,13 +292,13 @@
         },
         "server-env": {
           "versions": ["12.0", "14.0"],
-          "title": "",
+          "title": "Ambiente server",
           "description": ""
         },
         "server-tools": {
           "versions": ["12.0", "14.0"],
-          "title": "",
-          "description": ""
+          "title": "Strumenti per ambienti server",
+          "description": "Progetto che si propone di gestire moduli che forniscono strumenti utili alla gestione dell'ambiente server di Odoo"
         },
         "server-ux": {
           "versions": ["12.0", "14.0"],
@@ -322,8 +322,8 @@
         },
         "connector-cmis": {
           "versions": ["12.0", "14.0"],
-          "title": "Connettori servizi CMIS",
-          "description": ""
+          "title": "Connettori CMIS",
+          "description": "Integrazione con un CMIS esterno"
         },
         "connector-ecommerce": {
           "versions": ["12.0", "14.0"],
@@ -333,7 +333,7 @@
         "connector-jira": {
           "versions": ["12.0", "14.0"],
           "title": "Connettori Jira",
-          "description": ""
+          "description": "Repository che ospita tutti i moduli per integrare Odoo con Jira di Atlassian (https://jira.atlassian.com)"
         },
         "connector-telephony": {
           "versions": ["12.0", "14.0"],
@@ -343,12 +343,12 @@
         "edi": {
           "versions": ["12.0", "14.0"],
           "title": "Connettori EDI",
-          "description": ""
+          "description": "Moduli per lo scambio elettronico di dati (EDI)"
         },
         "interface-github": {
           "versions": ["12.0", "14.0"],
           "title": "Connettori per GitHub",
-          "description": ""
+          "description": "Moduli che consentono a Odoo di connettersi a sistemi Git/GitHub"
         }
       }
     },
@@ -358,7 +358,7 @@
         "vertical-association": {
           "versions": ["12.0", "14.0"],
           "title": "Verticalizzazione per associazioni",
-          "description": ""
+          "description": "Componenti aggiuntivi per associazioni e attività relative alle iscrizioni"
         },
         "vertical-isp": {
           "versions": ["12.0", "14.0"],
